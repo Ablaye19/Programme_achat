@@ -28,9 +28,7 @@ module ItemManager
     )
   end
 
-  def items_by_label
-    items.group_by(&:label).transform_values(&:size)
-  end
+
 
   private
 
